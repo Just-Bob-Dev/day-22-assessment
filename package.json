@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/RagyHutch/day-22-assessment/issues"
   },
-  "homepage": "https://github.com/RagyHutch/day-22-assessment#readme"
+  "homepage": "https://github.com/RagyHutch/day-22-assessment#readme",
+  "dependencies": {
+    "mustache-express": "^1.2.4"
+  }
 }
