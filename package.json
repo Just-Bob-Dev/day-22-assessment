@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/RagyHutch/day-22-assessment#readme",
   "dependencies": {
+    "express": "^4.15.3",
     "mustache-express": "^1.2.4"
   }
 }
