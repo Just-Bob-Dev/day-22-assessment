@@ -1,0 +1,19 @@
+{
+  "name": "day-22-assessment",
+  "version": "1.0.0",
+  "description": "Some app about robots",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RagyHutch/day-22-assessment.git"
+  },
+  "author": "Robert James Hutchins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RagyHutch/day-22-assessment/issues"
+  },
+  "homepage": "https://github.com/RagyHutch/day-22-assessment#readme"
+}
