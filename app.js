@@ -13,11 +13,7 @@ app.set('view engine', 'mustache');
 //app.use(express.static(__dirname + './public'));
 
 app.get('/', function (req, res) {
-
-    res.render('index', {
-    img: data.users[0].avatar,
-    name: data.users[0].name,
-    placeOfWork: data.users[0].job});
+    res.render('index', {users: data.users});
     // module =
     // `
     // <div class="robot">

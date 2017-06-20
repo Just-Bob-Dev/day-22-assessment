@@ -6,11 +6,13 @@
     <title>Robots</title>
   </head>
   <body>
-    <div id="robot-container">
-      <img src={{img}} alt="pic of Robot">
-      <h1>{{name}}</h1>
-      <h3>{{placeOfWork}}</h3>
-    </div>
+    <div {{#users}}>
+      <ul>
+        <li><img src={{avatar}}></li>
+        <li>{{name}}</li>
+        <li>{{company}}</li>
+      </ul>
+    </div {{/users}}>
 
 
 
