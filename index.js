@@ -1,2 +1,2 @@
-require("./app/index.js");
+require("./app.js");
 require("./public/main.css");
