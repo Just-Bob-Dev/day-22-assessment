@@ -1,16 +1,18 @@
 // requires and environment setup ...
 const express = require('express');
-
+const css = require('./public/main.css')
 const data = require('./data.js');
 const mustacheExpress = require('mustache-express');
 
 const app = express();
 console.log(data.users[0].job);
 
+
+app.use(express.static('public'));
 app.engine('mustache', mustacheExpress());
 app.set('views', './views');
 app.set('view engine', 'mustache');
-//app.use(express.static(__dirname + './public'));
+
 
 app.get('/', function (req, res) {
     res.render('index', {users: data.users});
@@ -25,6 +27,7 @@ app.get('/', function (req, res) {
     // document.getElementById("robot-container").innerHTML += module;
 
 });
+app.get('/')
 
 
 

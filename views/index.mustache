@@ -2,18 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" type="text/css" href="main.css" />
     <title>Robots</title>
   </head>
   <body>
-    <div {{#users}}>
-      <ul>
-        <li><img src={{avatar}}></li>
-        <li>{{name}}</li>
-        <li>{{company}}</li>
-      </ul>
-    </div {{/users}}>
 
+    <section class='users-holder'>
+      <div {{#users}}>
+        <ul class="robots">
+          <li><a href=""><img src={{avatar}}></li>
+          <li>{{name}}</li>
+          <li>{{company}}</li>
+        </ul>
+      </div {{/users}}>
+    </section>
 
 
 

@@ -1,3 +1,13 @@
-body {
-  background-color: lightgrey;
+.users-holder {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.users-holder ul {
+  border: 1px solid grey;
+  margin: 2%;
+  list-style-type: none;
+  text-align: center;
+  border-radius: 5px;
+
 }
